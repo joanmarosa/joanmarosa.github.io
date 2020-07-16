@@ -11,10 +11,10 @@ img {
     background: #222 url('../images/trees.jpg') center center no-repeat;
     background-size: cover;
     color: white;
-    height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
+    height: 30%;
 }
 
 #cover-caption {
@@ -25,26 +25,42 @@ img {
     padding: 5rem 0;
 }
 
-#about {
-    background: url('img/cocoa.jpg') center center no-repeat;
-    background-size: cover;
-}
-
-#about-text {
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 1.875rem;
-}
-
 /*--- footer ---*/
 
-.page-footer {
+.footer {
     background-color: #222;
-    color: #ccc;
     padding: 10px 0 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-copyright {
-    color: #666;
+    color: #fff;
+    font-size: 0.8rem;
     padding: 10px 0;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    ...
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    ...
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    ...
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    ...
 }
